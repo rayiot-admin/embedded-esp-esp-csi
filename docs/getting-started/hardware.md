@@ -17,7 +17,7 @@ We use the **ESP32-WROOM-32 DevKit v1** for all CSI-related experiments. The fir
 - USB-to-UART bridge onboard (CP2102 or CH340)
 
 ### ESP32 DevKit v1:
-![ESP32 DevKit v1](../images/esp32-devkit-v1.jpg)
+![ESP32 DevKit v1](../images/esp32-devkit-v1.jpg){ width=400px .center}
 
 ### Notes:
 - Ensure the board is **genuine or from a trusted vendor** to avoid UART instability.
@@ -34,8 +34,7 @@ A standard **USB-A to Micro-USB** cable is used to connect the ESP32 board to th
 - Cable length should be limited to **under 1.5 meters** for stability.
 
 ### Image:
-<img src="/images/usb-micro-cable.jpg" alt="USB Cable" style="width: 400px;" />
-![USB Cable](../images/usb-micro-cable.jpg)
+![USB Cable](../images/usb-micro-cable.jpg){ width=400px .center}
 ---
 
 ## 3. Host Machine (Laptop or PC)
@@ -63,7 +62,7 @@ An 802.11 b/g/n compatible router is required to generate Wi-Fi traffic for CSI 
 - Ensure the network is lightly loaded to avoid interference
 
 ### Image:
-![Wi-Fi Router](../images/wifi-router.jpg)
+![Wi-Fi Router](../images/wifi-router.jpg){ width=400px .center}
 
 ---
 
@@ -77,7 +76,7 @@ If the USB port is not used for power, or if conducting mobile experiments (e.g.
 - Li-ion battery with voltage regulator (for compact embedded systems)
 
 ### Image:
-![Power Bank](../images/power-bank.jpg)
+![Power Bank](../images/power-bank.jpg){ width=400px .center}
 
 ---
 
@@ -91,7 +90,7 @@ To ensure reproducibility and reduce signal artifacts caused by board movement:
 - Ruler/tape measure for documenting layout distance between devices
 
 ### Image:
-![ESP32 Mount Setup](../images/esp32-mount-setup.jpg)
+![ESP32 Mount Setup](../images/esp32-mount-setup.jpg){ width=400px .center}
 
 ---
 

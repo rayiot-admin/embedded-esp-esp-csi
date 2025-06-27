@@ -15,15 +15,15 @@ extra_css:
 extra_javascript:
 - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 markdown_extensions:
-- admonition
-- codehilite
-- toc:
-    permalink: true
-- pymdownx.arithmatex:
-    generic: true
-- pymdownx.superfences
-- pymdownx.tabbed
-- pymdownx.details
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.details
 plugins:
 - search
 extra:
