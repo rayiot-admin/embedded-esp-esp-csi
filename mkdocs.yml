@@ -1,10 +1,13 @@
 site_name: ESP32-CSI Tool Documentation
 site_url: https://github.com/rayiot-admin/wifi/tree/documentation
+site_name: ESP32-CSI Tool Documentation
 theme:
   name: material
+  custom_dir: overrides
   features:
   - navigation.top
   - search.highlight
+  logo: images/ray-logo.png
   palette:
     primary: blue
     accent: indigo
@@ -15,23 +18,24 @@ extra_css:
 extra_javascript:
 - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 markdown_extensions:
-  - attr_list
-  - md_in_html
-  - toc:
-      permalink: true
-  - pymdownx.arithmatex:
-      generic: true
-  - pymdownx.superfences
-  - pymdownx.tabbed
-  - pymdownx.details
+- admonition
+- codehilite
+- toc:
+    permalink: true
+- pymdownx.arithmatex:
+    generic: true
+- pymdownx.superfences
+- pymdownx.tabbed
+- pymdownx.details
+
 plugins:
 - search
 extra:
-  logo: images/logo.png
   favicon: images/favicon.ico
+  copyright: Copyright © 2025 RayIoT
   social:
-  - icon: fontawesome/brands/github
-    link: https://github.com/rayiot-admin
+    - icon: fontawesome/brands/github
+      link: https://github.com/rayiot-admin
 nav:
 - Home: index.md
 - Introduction:
