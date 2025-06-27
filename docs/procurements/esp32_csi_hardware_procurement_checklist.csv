@@ -1,0 +1,9 @@
+Item,Quantity,Specification / Model,Preferred Vendor,Approx. Cost (INR),Notes
+ESP32 DevKit v1,2,"ESP32-WROOM-32, CP2102/CH340",Mouser / Robu.in,350 – 500,Minimum 2 units for TX/RX
+USB-A to Micro-USB,2,"Data-capable, <1.5 m length",Amazon / Local,50 – 100,Must support power + UART
+Wi-Fi Router,1,"2.4 GHz, 802.11 b/g/n",TP-Link / D-Link,1000 – 1500,Basic router sufficient
+Power Bank,1,"5V / 2A, 5000–10000 mAh",Mi / Realme / Ambrane,600 – 1200,Optional – for mobile tests
+Tripod/Stand,2,Adjustable / table mount,Amazon,300 – 500,For stable sensor placement
+External Antenna,Optional,SMA Antenna (IPEX-compatible),Robu.in / AliExpress,200 – 400,Needed for WROVER modules
+Breadboard,Optional,Full-size or mini,Local,100,Useful for prototyping
+Heat Sinks,Optional,Adhesive copper/aluminum,Amazon / Robu.in,100 – 200,Recommended for long-duration tests

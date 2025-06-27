@@ -1,0 +1,67 @@
+site_name: ESP32-CSI Tool Documentation
+site_url: https://github.com/rayiot-admin/wifi/tree/documentation
+theme:
+  name: material
+  features:
+  - navigation.top
+  - search.highlight
+  palette:
+    primary: blue
+    accent: indigo
+docs_dir: docs
+site_dir: site
+extra_css:
+- extras/extra.css
+extra_javascript:
+- https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+markdown_extensions:
+- admonition
+- codehilite
+- toc:
+    permalink: true
+- pymdownx.arithmatex:
+    generic: true
+- pymdownx.superfences
+- pymdownx.tabbed
+- pymdownx.details
+plugins:
+- search
+extra:
+  logo: images/logo.png
+  favicon: images/favicon.ico
+  social:
+  - icon: fontawesome/brands/github
+    link: https://github.com/rayiot-admin
+nav:
+- Home: index.md
+- Introduction:
+  - Purpose: introduction/purpose.md
+  - Overview: introduction/overview.md
+  - Goals: introduction/goals.md
+  - Tools and hardware used: introduction/tools.md
+- Getting Started:
+  - Hardware Requirements: getting-started/hardware.md
+  - Software Requirements: getting-started/software.md
+  - Setting Up the Environment: getting-started/environment.md
+- Working of CSI Tool:
+  - What is CSI?: csi-tool/what-is-csi.md
+  - How CSI is Collected: csi-tool/collection-method.md
+- Data Collection Setup:
+  - Physical Layout: data-collection/physical-layout.md
+  - Configuration of ESP32: data-collection/esp32-configuration.md
+  - Collecting CSI Data: data-collection/collecting-csi.md
+- Data Analysis:
+  - Raw CSI Format: data-analysis/raw-format.md
+  - Plotting and Visualization: data-analysis/visualization.md
+  - Filtering and Preprocessing: data-analysis/preprocessing.md
+- Applications / Use Cases Implemented:
+  - Human Presence Detection: applications/human-detection.md
+  - Estimation of BrPM: applications/estimate-brpm.md
+- Challenges Faced: challenges/challenges.md
+- Optimization & Improvements: optimization/optimizations.md
+- Future Work: future/future-work.md
+- References: references/references.md
+- Appendices:
+  - Code Samples: appendices/code-samples.md
+  - Hardware Specs: appendices/hardware-specs.md
+  - Dataset Samples: appendices/datasets.md
