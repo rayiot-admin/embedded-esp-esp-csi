@@ -72,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#welcome-to-mkdocs" class="md-skip">
+        <a href="#esp32-csi-tool-documentation" class="md-skip">
           Skip to content
         </a>
       
@@ -252,18 +252,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
+  <a href="#overview" class="md-nav__link">
     <span class="md-ellipsis">
-      Commands
+      Overview
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#project-layout" class="md-nav__link">
+  <a href="#project-highlights" class="md-nav__link">
     <span class="md-ellipsis">
-      Project layout
+      Project Highlights
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    <span class="md-ellipsis">
+      Getting Started
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#support-and-feedback" class="md-nav__link">
+    <span class="md-ellipsis">
+      Support and Feedback
     </span>
   </a>
   
@@ -1167,18 +1185,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
+  <a href="#overview" class="md-nav__link">
     <span class="md-ellipsis">
-      Commands
+      Overview
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#project-layout" class="md-nav__link">
+  <a href="#project-highlights" class="md-nav__link">
     <span class="md-ellipsis">
-      Project layout
+      Project Highlights
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    <span class="md-ellipsis">
+      Getting Started
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#support-and-feedback" class="md-nav__link">
+    <span class="md-ellipsis">
+      Support and Feedback
     </span>
   </a>
   
@@ -1200,21 +1236,38 @@
 
 
 
-<h1 id="welcome-to-mkdocs">Welcome to MkDocs<a class="headerlink" href="#welcome-to-mkdocs" title="Permanent link">&para;</a></h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands<a class="headerlink" href="#commands" title="Permanent link">&para;</a></h2>
+<h1 id="esp32-csi-tool-documentation">ESP32-CSI Tool Documentation<a class="headerlink" href="#esp32-csi-tool-documentation" title="Permanent link">&para;</a></h1>
+<p>Welcome to the official documentation for the ESP32-CSI Tool, developed by the Embedded Team at RayIoT Solutions.</p>
+<p>This tool enables advanced analysis of Wi-Fi Channel State Information (CSI) using ESP32 hardware. It is designed for applications such as sensing, localization, and breathing rate estimation.</p>
+<hr />
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
+<p>The ESP32-CSI Tool provides:
+- Modified ESP32 firmware to extract CSI frames
+- Scripts to decode and process CSI data
+- Visualizations and metrics for signal quality and sensing
+- A complete setup guide for hardware and software configuration</p>
+<hr />
+<h2 id="project-highlights">Project Highlights<a class="headerlink" href="#project-highlights" title="Permanent link">&para;</a></h2>
 <ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
+<li>Hardware: ESP32-WROOM-32 DevKit v1  </li>
+<li>Wi-Fi: 2.4 GHz (IEEE 802.11 b/g/n)  </li>
+<li>Applications: Motion sensing, breathing estimation, activity tracking  </li>
+<li>Host OS Compatibility: Linux, Windows, macOS</li>
 </ul>
-<h2 id="project-layout">Project layout<a class="headerlink" href="#project-layout" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre></div>
+<hr />
+<h2 id="getting-started">Getting Started<a class="headerlink" href="#getting-started" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Setup Instructions: <a href="getting-started/environment/">getting-started/environment.md</a></li>
+<li>Data Collection Guide: <a href="data-collection/collecting-csi/">data-collection/collecting-csi.md</a></li>
+<li>Data Analysis: <a href="data-analysis/preprocessing/">data-analysis/preprocessing.md</a></li>
+<li>Sample CSI Data: <a href="data-files/sample-1.csv">data-files/sample-1.csv</a></li>
+</ul>
+<hr />
+<h2 id="support-and-feedback">Support and Feedback<a class="headerlink" href="#support-and-feedback" title="Permanent link">&para;</a></h2>
+<p>If you encounter issues or have suggestions, please raise an issue in the GitHub repository:</p>
+<p><a href="https://github.com/rayiot-admin/embedded-esp-esp-csi/issues">https://github.com/rayiot-admin/embedded-esp-esp-csi/issues</a></p>
+<hr />
+<p>© 2025 RayIoT Solutions. All rights reserved.</p>
 
 
 
