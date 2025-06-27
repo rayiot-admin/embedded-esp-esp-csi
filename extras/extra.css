@@ -21,5 +21,8 @@ img.center {
   z-index: 100;
   box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
 }
+.md-main__inner {
+  padding-bottom: 60px;  /* 👈 Adjust based on footer height */
+}
 
 
